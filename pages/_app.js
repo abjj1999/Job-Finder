@@ -1,7 +1,9 @@
-import '../styles/globals.css'
-
+import "animate.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+// import "antd/dist/antd";
+import "../styles/globals.css";
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return <Component {...pageProps} />;
 }
 
-export default MyApp
+export default MyApp;
