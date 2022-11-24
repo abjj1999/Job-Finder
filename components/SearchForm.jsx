@@ -1,9 +1,13 @@
 import React from "react";
 import { Button, Card, Input, Radio } from "antd";
+import { DoubleRightOutlined } from "@ant-design/icons";
 const SearchForm = () => {
   return (
-    <div className="row">
-      <Card className="   col-6 offset-md-3" title="Search For Next Job">
+    <div className="row mt-4">
+      <Card
+        className="col-lg-6 col-md-8 col-sm-10 offset-lg-3 offset-md-2 offset-sm-1"
+        title="Search For Next Job"
+      >
         <label htmlFor="what" className="text-muted ">
           Job?
         </label>
@@ -24,9 +28,15 @@ const SearchForm = () => {
           <p className="text-muted">Job conditions</p>
           <Radio>Remote</Radio>
         </div>
-        <Button type="primary" className="mt-3">
-          Search
-        </Button>
+        <div className="d-flex justify-content-between mt-3">
+          <Button type="primary" className="">
+            Search
+          </Button>
+          <DoubleRightOutlined
+            className="icon_size mt-1 text-secondary"
+            disabled
+          />
+        </div>
       </Card>
     </div>
   );
