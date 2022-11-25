@@ -4,18 +4,23 @@ import Nav from "./Nav";
 import Footer from "./Footer";
 const { Header, Content } = Layout;
 const Layoutt = ({ children }) => (
-  <Layout className="layout">
+  <Layout
+    style={{
+      backgroundColor: "white",
+    }}
+    className="layout h-100"
+  >
     <Nav />
 
     <Content
       style={{
         padding: "15px 50px",
         marginBottom: "20px",
-        marginTop: "10px",
+
         backgroundColor: "white",
       }}
     >
-      <div className="site-layout-content">{children}</div>
+      <div className="">{children}</div>
     </Content>
     <Footer />
   </Layout>

@@ -6,7 +6,7 @@ import {
 } from "@ant-design/icons";
 const Footer = () => {
   return (
-    <div className="d-flex justify-content-between p-4">
+    <div className="d-flex justify-content-between p-4 mt-auto bg-light footer-sytle">
       <div>
         <h1 className="font-change">
           Job Finder <span className="display-5 text-primary">!</span>
