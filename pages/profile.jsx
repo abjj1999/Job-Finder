@@ -2,6 +2,7 @@ import { CameraOutlined } from "@ant-design/icons";
 import { Button, Card, Input, Collapse } from "antd";
 import React from "react";
 import AddressForm from "../components/AddressForm";
+import Eduction from "../components/Eduction";
 const { Panel } = Collapse;
 const Profile = () => {
   return (
@@ -21,6 +22,7 @@ const Profile = () => {
         </div>
         <div className="col-lg-6 col-md-8 col-sm-10 offset-lg-3 offset-md-2 offset-sm-1 ">
           <AddressForm />
+          <Eduction />
         </div>
       </div>
     </div>

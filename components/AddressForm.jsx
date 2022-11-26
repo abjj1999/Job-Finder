@@ -4,7 +4,7 @@ import { ArrowDownOutlined } from "@ant-design/icons";
 const { Panel } = Collapse;
 const AddressForm = () => {
   return (
-    <Collapse bordered={false} defaultActiveKey={["1"]} ghost>
+    <Collapse bordered={false} defaultActiveKey={["1"]}>
       <Panel
         header="Basic Info"
         className=" h6 font-change"
